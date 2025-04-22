@@ -25,7 +25,7 @@ Content-Type: application/json
     "name" : "Enchiladas (2)",
     "description" : "Authentic enchiladas, filled with tender shredded chicken (or your choice of beef, cheese, or veggies) and smothered in a rich, smoky red chili sauce or creamy verde sauce.",
     "price" : 9.99,
-    "imageUrl" : "https://thecookingjar.com/wp-content/uploads/2024/02/beef-enchiladas-7.jpg"
+    "image" : "https://thecookingjar.com/wp-content/uploads/2024/02/beef-enchiladas-7.jpg"
 }
 
 ### Add new event item
