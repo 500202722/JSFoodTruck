@@ -1,3 +1,40 @@
 ### Variables
 @url = http://localhost:3000/api/v1
+@menuid = 68080d8a27c4536f676f9717
+@eventid = 68080dc727c4536f676f971a
 
+
+### All Menu Items
+GET  {{url}}/menu/
+
+### All Events
+GET  {{url}}/events/
+
+### Menu Item by ID
+GET  {{url}}/menu/{{menuid}}
+
+### Event by ID
+GET  {{url}}/events/{{eventid}}
+
+
+### Add new menu item
+POST {{url}}/menu
+Content-Type: application/json
+
+{   
+    "name" : "Enchiladas (2)",
+    "description" : "Authentic enchiladas, filled with tender shredded chicken (or your choice of beef, cheese, or veggies) and smothered in a rich, smoky red chili sauce or creamy verde sauce.",
+    "price" : 9.99,
+    "imageUrl" : "https://thecookingjar.com/wp-content/uploads/2024/02/beef-enchiladas-7.jpg"
+}
+
+### Add new event item
+POST {{url}}/events
+Content-Type: application/json
+
+{   
+    "name": "Appleton Oktoberfest",
+    "location" : "Downtown Appleton, WI",
+    "date" : "2026-09-30",
+    "time" : "9:00 AM - 10:00 PM"
+}
