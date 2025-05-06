@@ -1,0 +1,72 @@
+body{
+    color:black;
+    background-color:rgb(165, 133, 83);
+    margin: center;
+    text-align: center;
+
+}
+
+.centerimage{
+    width:100%;
+    height: 300px;
+    border: 10px;
+}
+
+.link{
+    border: 10px;
+    font-size: 20px;
+    padding: 5px;
+    color:bisque;
+}
+
+.adjusttext{
+    font-size: 20px;
+    font-style: italic;
+}
+.textMenu{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+h1{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+    background-color: bisque;
+    padding: 1px;
+}
+
+/*Adjust the taco image*/
+.taco-display {
+    border: 1px;
+    text-align: center;
+}
+.taco-display img {
+    width: 400px;
+    height: 300px;
+    border: 5px solid;
+}
+.taco-display p{
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*Adjust the events*/
+.events-display{
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+.events-display name{
+    font-size: 30px;
+}
+
+/*Adjust the forms page*/
+#newRecipes, #newEvents{
+    font-size: 25px;
+}
+#tname, #description, #price, #image, #ename, #location, #date, #time{
+    width: 20%;
+}

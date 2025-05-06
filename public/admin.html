@@ -4,11 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fox Valley Taco Admin</title>
+    <img  class="centerimage" src="images/centertaco.jpg" alt="Tacos">
+    <link rel="stylesheet" href="styles/site.css">
+    <a href="index.html" class="link">Our Menu</a>
     <script src="/scripts/site.js" defer></script>
 </head>
 <body>
-    <h1></h1>
-    <h2></h2>
-    <h3></h3>
+    <!--ADD NEW RECIPES-->
+    <h1>Fox Valley Taco Truck</h1>
+    <p class="adjusttext">We cater to every taste and we love your ideas!</p>
+    <h2 class="textMenu">Add New Recipes</h2>
+    <div id="newTacoList">
+        <form id="newRecipes">
+            <label for="tname">Name:</label><br>
+            <input type="text" id="tname"><br>
+    
+            <label for="description">Description:</label><br>
+            <input type="text" id="description"><br>
+    
+            <label for="price">Price:</label><br>
+            <input type="text" id="price"><br>
+    
+            <label for="image">Image URL:</label><br>
+            <input type="text" id="image" name="image"><br><br>
+    
+            <button type="submit">Add New Taco</button>
+        </form>
+    </div>
+    
+    <!--ADD NEW EVENTS-->
+    <h3 class="textMenu">Add New Events</h3>
+    <div id="newEventsList">
+        <form id="newEvents">
+            <label for="ename">Name:</label><br>
+            <input type="text" id="ename"><br>
+    
+            <label for="location">Location:</label><br>
+            <input type="text" id="location"><br>
+    
+            <label for="date">Date:</label><br>
+            <input type="text" id="date"><br>
+    
+            <label for="time">Time:</label><br>
+            <input type="text" id="time"><br><br>
+    
+            <button type="submit">Add New Event</button>
+        </form>
+    </div>
 </body>
 </html>

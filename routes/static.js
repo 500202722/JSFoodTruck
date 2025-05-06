@@ -7,4 +7,8 @@ router.get('/', (request, response) => {
     response.sendFile('index.html', { root })
 })
 
+router.get('/event/:id', (request, response) => {
+    response.sendFile('events.html', { root })
+})
+
 module.exports = router
